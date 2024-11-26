@@ -1,0 +1,46 @@
+*{
+    margin:  0; 
+    padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 20% 60% 20%;
+    gap: 20px;
+    min-height: 100vh;
+}
+
+header{
+    display: grid;
+    grid-template-rows: 20% 80%;
+    width: 100%;
+    height: 100%;
+}
+.align{
+    display: grid;
+    place-items: center;
+}
+
+.nav-bar{
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    width: 100%;
+    gap: 20px;
+}
+
+.top{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
+    justify-content: end;
+}
+.nav-list{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+}
+
+.imagem-logo {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover;
+}
